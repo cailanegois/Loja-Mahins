@@ -137,37 +137,35 @@ table {
 
 
 /*formatação do formulário*/
-
-
-
 #artForm {
-    margin: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 700px; 
 }
 
 
-form label {
+#artform label {
     color: #200065;
 }
 
 
+
 form input, textarea {
     border-radius: 5px;
-    width: 895px; 
+    width: 100%; 
     height: 30px;
-    margin: 10px;
+    margin: 10px 0;
+
 }
 
-form textarea {
-    width: 895px; 
-    height: 152px;
-}
+
 form button {
     background-color: #200065;
     color:#fff;
     border-radius: 10px;
     padding: 10px 20px;
-    
 }
 
 button:hover{
